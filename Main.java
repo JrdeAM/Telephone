@@ -6,7 +6,6 @@ public class Main {
         // Build the object graph
         PhoneModel model = new PhoneModel();
         Screen screen = new Screen(model);
-        model.addObserver(screen);
         KeyPad keyPad = new KeyPad(model);
 
         // Run the program
